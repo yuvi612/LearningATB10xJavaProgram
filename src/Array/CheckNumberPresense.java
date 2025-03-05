@@ -3,7 +3,7 @@ package Array;
 import java.util.Scanner;
 
 public class CheckNumberPresense {
-    public static void checking(int n) {
+        public static void checking(int n) {
         int a[] = {1, 2, 3, 4, 5, 6, 7, 8};
         for (int i = 0; i < a.length; i++) {
             if (a[i] == n) {
@@ -18,10 +18,11 @@ public class CheckNumberPresense {
 
         public static void main (String[]args)
         {
-                int num;
+                int n;
                 Scanner sc = new Scanner(System.in);
-                num = sc.nextInt();
-                checking(num);
+                n = sc.nextInt();
+                //CheckNumberPresense c = new CheckNumberPresense();
+                checking(n);
 
 
 
